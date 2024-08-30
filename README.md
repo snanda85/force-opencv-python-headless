@@ -1,5 +1,5 @@
 # force-opencv-python-headless
-    This wrapper rebrands opencv-python-headless as opencv-python, so that if any other sub-dependencies require opencv-python package, they get the headless version.
+This wrapper rebrands opencv-python-headless as opencv-python, so that if any other sub-dependencies require opencv-python package, they get the headless version.
 
 ## Installation
 
@@ -15,6 +15,8 @@ https://github.com/bertsky/wrap_opencv-python-headless (which encounters issues 
 ## Detailed Description
 
 If you want to install [OpenCV](https://github.com/opencv/opencv-python) as a Python package, or include it as a dependency in another, (unless you want to build your own,) you'll first have to decide on a _flavour_ (and top-level package name):
+
+**From opencv-python documentation:**
 
 > Select the correct package for your environment:
 
